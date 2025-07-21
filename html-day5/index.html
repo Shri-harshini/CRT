@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Exercise Solution</title>
+</head>
+
+<body>
+    <h1>Course Registration Form</h1>
+
+    <form action="/submit" method="post">
+
+        <label for="fullname">Full Name:</label><br><input type="text" id="fullname" name="fullname" placeholder="Enter your full name"><br><br>
+
+        <label for="email">Email:</label><br><input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+        <label for="password">Password:</label><br><input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+
+        <p>Gender:</p>
+
+        <input type="radio" id="male" name="gender" value="Male"><label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="Female"><label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="Other"><label for="other">Other</label><br><br>
+
+        <label for="Course">Course:</label><br><select id="Course" name="course">
+
+            <option value="">Select course</option>
+            <option value="HTML">HTML course</option>
+            <option value="UI & UX">UI & UX course</option>
+            <option value="Java">Java Script Course</option>
+            <option value="CSS">CSS course</option>
+
+        </select><br><br>
+
+        <input type="reset" value="Reset"></td><input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
+
